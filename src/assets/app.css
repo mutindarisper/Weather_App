@@ -82,4 +82,38 @@ main{
     font-weight: 700;
     font-style: italic;
     text-shadow: 3px 6px rgba(0,0,0,0.25);
+    /* background-image: url('./images/rain.gif'); */
+}
+ .rain-icon{
+    background-image: url('./images/rain-gif.gif');
+  
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: -5vh;
+    left:53vw;
+    height: 50px;
+    width: 90px;
+}
+.cloud-icon{
+    background-image: url('./images/clouds.png');
+  
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: -5vh;
+    left:53vw;
+    height: 50px;
+    width: 90px;
+}
+.sun-icon{
+    background-image: url('./images/sun.png');
+  
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: -5vh;
+    left:53vw;
+    height: 50px;
+    width: 90px;
 }
